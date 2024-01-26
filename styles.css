@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.header{
+    background-color: #1B1B1F;
+    top:0;
+    left:0;
+    right: 0;
+    padding: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    
+}
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+  font-size: 35px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #2c2b47;
+    font-size: 70px;
+  }
+
+#contenido1{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: green;
+}
+
+#contenido2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: green;
+    margin-left: 50px;
+}
+
+.menu{
+    margin-right: 50px;
+}
+.menu a{
+    padding: 10px;
+    transition: all 300ms;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu a:hover{
+        color: white;
+        background-color: rgb(218, 160, 0);
+
+}
+#home{
+  background-color: #1B1B1F;
+}
+
+#home img{
+  margin-right: 250px;
+}
+
+#about{
+  background-color: #1B1B1F;
+}
+#menu{
+  background-color: #1B1B1F;
+}
+#service{
+  background-color: #1B1B1F;
+}
+#contact{
+  background-color: #1B1B1F;
+}
