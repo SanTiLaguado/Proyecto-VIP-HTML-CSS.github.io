@@ -8,6 +8,8 @@
 
 }
 
+/* Menu header */
+
 .header{
     background-color: #1B1B1F;
     top:0;
@@ -32,7 +34,7 @@
     align-items: center;
     font-family: 'League Spartan', sans-serif;
     text-transform: uppercase;
-    
+    margin-right: 50px;
 }
 .logo{
   font-size: 35px;
@@ -42,6 +44,8 @@
   align-items: center;
   margin-top: 7px;
 }
+
+/* Configuracion de secciones */
 section{
     display: flex;
     height: 100vh;
@@ -51,6 +55,8 @@ section{
     color: #2c2b47;
     font-size: 70px;
   }
+
+/* Inicio/Home */
 
 #home{
   background-color: #1B1B1F;
@@ -88,6 +94,8 @@ section{
   box-shadow: none;
 }
 
+/* Sobre Nosotros/About */
+
 #about{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -101,7 +109,9 @@ section{
 }
 
 #about img{
-  margin-left: 25%;
+  margin: 12%;
+  width: auto;
+  height: auto;
 }
 #about .about h1{
   color: #fCAA17;
@@ -139,8 +149,11 @@ section{
   box-shadow: none;
 }
 
-.menu{
-    margin-right: 50px;
+/* Menu/Food Menu */
+
+#menu{
+  background-color: #1B1B1F;
+
 }
 .menu a{
     padding: 10px;
@@ -149,20 +162,124 @@ section{
 }
 
 .menu a:hover{
-        color: black;
-        background-color: #fCAA17;
-        box-shadow: 0px 0px 20px #fCAA17;
+  color: black;
+  background-color: #fCAA17;
+  box-shadow: 0px 0px 20px #fCAA17;
 
 }
+#menu h1{
+  font-size: 70px;
+  color: #fCAA17;
+  margin-right: 40px;
+}
 
-#menu{
+#menu h1 button{
+  padding: 1rem 2rem;
+  font-weight: 10;
+  font-size: 1.5rem;
+  border: #fCAA17;
+  border-radius: 100px;
+  color: #1B1B1F;
+  background: #fCAA17;
+  margin-left: 30%;
+  }
+
+#menu h1 button:hover{
+  box-shadow: 0px 0px 20px #fCAA17;
+}
+#menu h1 button:active{
+  box-shadow: none;
+}
+
+.producto {
+  width: 20%;
+  height: 40%;
+  margin: 10px;
+  padding: 1em;
+  font-size: 18px;
   background-color: #1B1B1F;
+  border: 3px solid#fCAA17;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
 }
+
+.producto img{
+  width: 100%;
+  height: 45%;
+  max-width: 350px;
+  max-height: 420px;
+  min-height: 290px;
+  margin-bottom: 10px;
+}
+
+.producto > .descripcion{
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/* Servicios/Services */
+
 #service{
   background-color: #1B1B1F;
 }
+
+#service h1{
+  font-size: 50px;
+  color: #fCAA17;
+
+}
+.servicio {
+  width: 20%;
+  height: 40%;
+  margin: 10px;
+  padding: 1em;
+  font-size: 18px;
+  background-color: #1B1B1F;
+  border: 3px solid#fCAA17;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+.servicioimg{
+  width: 100%;
+  height: 50%;
+  max-width: 350px;
+  max-height: 420px;
+  min-height: 300px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contacto/Contact */
+
 #contact{
   background-color: #1B1B1F;
+}
+
+/* Final */
+
+.clearfix{
+  float: none;
+  clear: both
 }
 
 #footer{
