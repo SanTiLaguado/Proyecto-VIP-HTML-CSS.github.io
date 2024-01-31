@@ -87,6 +87,10 @@ section{
   background: #fCAA17;
   margin-left: 30%;
 }
+
+#home button a{
+  text-decoration: none
+}
 #home button:hover{
   box-shadow: 0px 0px 20px #fCAA17;
 }
@@ -141,7 +145,13 @@ section{
   border-radius: 100px;
   color: white;
   background: #fCAA17;
+
 }
+
+#about .about button a{
+  text-decoration: none;
+}
+
 #about .about button:hover{
   box-shadow: 0px 0px 20px #fCAA17;
 }
@@ -363,7 +373,6 @@ section{
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 /* Final */
 
