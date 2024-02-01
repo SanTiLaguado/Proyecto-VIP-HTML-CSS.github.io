@@ -11,6 +11,17 @@
 <body>
     <header class="header">
         <a id="logo" href="#home">VIP</a>
+
+        <nav class="mobile-menu">
+            <div class="bx bx-menu" id="mobile-menu-icon"></div>
+            <ul class="navbar-mobile">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contactus">Contact</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#Reviews">Reviews</a></li>
+            </ul>
+        </nav>
         <nav class="menu">
             <a href="#home">Home</a>
             <a href="#about">Sobre Nosotros</a>
@@ -112,6 +123,14 @@
 
         
 </body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#mobile-menu-icon').click(function () {
+      $('.navbar-mobile').slideToggle();
+    });
+  });
+</script>
 <div class="clearfix"></div>
 <footer id="footer">
     <P>&copy; 2024 PSYCO Industries SAS, Todos los derechos reservados.</P>
