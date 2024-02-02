@@ -120,20 +120,19 @@
             </iframe>
         </div>
     </section>
-
-        
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#mobile-menu-icon').click(function () {
+          $('.navbar-mobile').slideToggle();
+        });
+      });
+    </script>        
 </body>
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('#mobile-menu-icon').click(function () {
-      $('.navbar-mobile').slideToggle();
-    });
-  });
-</script>
 <div class="clearfix"></div>
 <footer id="footer">
     <P>&copy; 2024 PSYCO Industries SAS, Todos los derechos reservados.</P>
     <p>VIP, VIP BURGER CENTER y cualquier logotipo relacionado son marcas registradas.</p>
+    <p id="credit">Designed by Santiago Laguado Osorio, Campuslands 2024.</p>
 </footer>
 </html>
