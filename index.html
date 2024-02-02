@@ -3,25 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
     <title>VIP Burger Center</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
-        <a id="logo" href="#home">VIP</a>
-
-        <nav class="mobile-menu">
-            <div class="bx bx-menu" id="mobile-menu-icon"></div>
-            <ul class="navbar-mobile">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contactus">Contact</a></li>
-              <li><a href="#services">Service</a></li>
-              <li><a href="#Reviews">Reviews</a></li>
-            </ul>
-        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#home" id="logo">VIP</a> 
         <nav class="menu">
             <a href="#home">Home</a>
             <a href="#about">Sobre Nosotros</a>
@@ -32,7 +22,7 @@
     </header>
     <section id="home">
         <img src="media/VIP-LOGO-FINAL.png" alt="LOGO VIP BURGUER">
-        <div class="monda">
+        <div class="row">
         <h1>BIENVENIDO A <br> VIP BURGER CENTER</h1>
         <button><a href="#about">Nosotros</a></button>
         </div>
@@ -119,15 +109,11 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0491818657138!2d-73.122142!3d7.120299099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fd86d6012cb%3A0x7fca4f3f83f1c483!2sComidas%20R%C3%A1pidas%20vip%20burger%20center!5e0!3m2!1ses-419!2sco!4v1706740413801!5m2!1ses-419!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </iframe>
         </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('#mobile-menu-icon').click(function () {
-          $('.navbar-mobile').slideToggle();
-        });
-      });
-    </script>        
+    </section>  
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 <div class="clearfix"></div>
 <footer id="footer">
