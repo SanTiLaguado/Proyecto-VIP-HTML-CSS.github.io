@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
 *{
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    font-family: 'League Spartan', sans-serif;;
-    scroll-behavior: smooth;
-    text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'League Spartan', sans-serif;;
+  scroll-behavior: smooth;
+  text-decoration: none;
 
 }
 
 /* Menu header */
 
 .header{
-    background-color: #1B1B1F;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
+  background-color: #1B1B1F;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
  
 }
 
 .header a {
-    font-family: 'League Spartan', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 
     
 }
 
 .menu{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'League Spartan', sans-serif;
-    text-transform: uppercase;
-    margin-right: 50px;
-    text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+  margin-right: 50px;
+  text-decoration: none;
 
 }
 #logo{
@@ -50,13 +50,13 @@
 
 /* Configuracion de secciones */
 section{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    color: #2c2b47;
-    font-size: 70px;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  color: #2c2b47;
+  font-size: 70px;
   }
 
 /* Inicio/Home */
@@ -168,9 +168,9 @@ section{
 
 }
 .menu a{
-    padding: 10px;
-    transition: all 300ms;
-    text-decoration: none;
+  padding: 10px;
+  transition: all 300ms;
+  text-decoration: none;
 }
 
 .menu a:hover{
@@ -829,7 +829,7 @@ section{
 }
 
 .header #menu-btn.bars{
-    transform:rotate(180deg);
+  transform:rotate(180deg);
 }
 
 .header .menu{
@@ -841,14 +841,13 @@ section{
 }
 
 .header .menu .active{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .header .menu a{
-    font-size: 2.2rem;
-    margin:0;
-    padding:1.5rem 2rem;
+  font-size: 2.2rem;
+  margin:0;
+  padding:1.5rem 2rem;
 }
 
 }
-
