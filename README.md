@@ -1,5 +1,5 @@
 
-# README - Santiago Laguado - VIP BURGUER CENTER
+# Santiago Laguado Osorio - VIP BURGUER CENTER
 
 ¡Hola! Soy Santiago Laguado, el desarrollador detrás de la maqueta de página para VIP BURGUER CENTER.
 
