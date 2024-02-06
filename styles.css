@@ -571,7 +571,7 @@ section{
 
 .producto {
   width: 45%;
-  height: 40%;
+  height: fit-content;
   font-size: 22px;
   padding: 1px;
 }
